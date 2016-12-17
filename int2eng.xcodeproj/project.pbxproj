@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		B35556071E05643F00C57181 /* int2eng */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = int2eng; sourceTree = BUILT_PRODUCTS_DIR; };
 		B355560A1E05643F00C57181 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B39F9BC21E05BB7200016068 /* str_util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = str_util.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				B355560A1E05643F00C57181 /* main.c */,
+				B39F9BC21E05BB7200016068 /* str_util.h */,
 			);
 			path = int2eng;
 			sourceTree = "<group>";
@@ -97,7 +99,7 @@
 				};
 			};
 			buildConfigurationList = B35556021E05643F00C57181 /* Build configuration list for PBXProject "int2eng" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -209,6 +211,7 @@
 		B355560F1E05644000C57181 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -216,6 +219,7 @@
 		B35556101E05644000C57181 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -239,6 +243,7 @@
 				B35556101E05644000C57181 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
