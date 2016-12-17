@@ -13,7 +13,7 @@
 */
 void strProper(char * str) {
     char c = str[0];
-    if (c > 'a' && c < 'z') {
+    if (c >= 'a' && c =< 'z') {
         str[0] = c - ' '; // minus 32
     }
 }
