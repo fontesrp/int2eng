@@ -9,7 +9,7 @@
 #define TRIO_NAME_SIZE 51
 
 /*
- * The biggest number it's possible to write:
+ * The biggest number name it's possible to write:
  * seven hundred and seventy-seven vigintillion,
  * seven hundred and seventy-seven novemdecillion,
  * seven hundred and seventy-seven octodecillion,
